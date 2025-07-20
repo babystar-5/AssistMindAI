@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Header() {
   return (
-    <header className="bg-white shadow-md px-[100px]  py-[18px] w-[1440px] mx-auto">
+    <header className="bg-white shadow-md px-[100px] py-[18px]">
       <div className="max-w-7xl mx-auto  flex items-center justify-between">
         {/* Logo */}
         <Link href="/">
@@ -27,7 +27,7 @@ export default function Header() {
 
         {/* CTA */}
         <div className="hidden md:block">
-          <button className="bg-secondary text-white text-xl w-[140px] h-[46px] px-[14px] py-[9px] rounded-[12px] hover:bg-indigo-600 transition">
+          <button className="bg-secondary text-white text-xl w-[140px] h-[46px] px-[14px] py-[9px] rounded-[12px] hover:hover:opacity-90 transition">
             Get Started
           </button>
         </div>
