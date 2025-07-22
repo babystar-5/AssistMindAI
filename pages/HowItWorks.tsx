@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { steps } from "@/utils/const";
 
 export default function HowItWorksPage() {
   return (
@@ -10,42 +11,65 @@ export default function HowItWorksPage() {
         <h2 className="text-md md:text-[40px] font-bold mb-8">How it works</h2>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-between items-center gap-8">
-        {[
-          {
-            id: 1,
-            title: "Set Up Your Assistant",
-            description:
-              "Customize voice and call settings to fit your workflow.",
-          },
-          {
-            id: 2,
-            title: "Connect Your Tools",
-            description:
-              "Seamlessly connect to CRM, calendar — no code required.",
-          },
-          {
-            id: 3,
-            title: "Start Talking",
-            description:
-              "Control tasks with voice — schedule and update hands-free.",
-          },
-        ].map((step) => (
-          <div
-            key={step.id}
-            className="bg-white text-[#1E1EFF] rounded-xl p-6 text-center w-full max-w-sm shadow"
-          >
-            <Image
-              src={`/assets/icon-${step.id}.png`}
-              alt="Step Number"
-              width={60} // adjust as needed
-              height={60}
-              className="mx-auto mb-4"
-            />
-            <h3 className="text-[22px] font-bold mb-2 text-[#2C3131]">{step.title}</h3>
-            <p className="text-md text-gray-600 font-semibold">{step.description}</p>
+      <div className="max-w-6xl mx-auto relative flex flex-col md:flex-row items-center justify-between gap-16">
+        {/* Step 1 */}
+        <div className="bg-white text-center rounded-xl shadow-md p-6 w-full md:w-[330px] relative z-10">
+          <div className="text-white bg-indigo-600 w-12 h-12 rounded-full mx-auto mb-4 flex items-center justify-center font-bold">
+            01
           </div>
-        ))}
+          <h3 className="font-bold text-xl text-black">
+            Set Up Your Assistant
+          </h3>
+          <p className="text-md text-black mt-2">
+            Customize voice and call settings to fit your workflow.
+          </p>
+        </div>
+
+        {/* Arrow */}
+        <img
+          src="/assets/arrow-left.png"
+          alt="arrow"
+          className="hidden md:block absolute top-21 left-[28%] w-[60px] z-0"
+        />
+        <img
+          src="/assets/arrow-up.png"
+          alt="arrow"
+          className="md:hidden absolute top-[26%] left-[49%] h-[60px] w-[15px] z-100"
+        />
+
+        {/* Step 2 */}
+        <div className="bg-white text-center rounded-xl shadow-md p-6 w-full md:w-[330px] relative z-10">
+          <div className="text-white bg-indigo-600 w-12 h-12 rounded-full mx-auto mb-4 flex items-center justify-center font-bold">
+            02
+          </div>
+          <h3 className="font-bold text-xl text-black">Connect Your Tools</h3>
+          <p className="text-md text-black mt-2">
+            Seamlessly connect to CRM, calendar — no code required.
+          </p>
+        </div>
+
+        {/* Arrow */}
+        <img
+          src="/assets/arrow-right.png"
+          alt="arrow"
+          className="hidden md:block absolute top-21 left-[64%] w-[60px] z-0"
+        />
+        <img
+          src="/assets/arrow-down.png"
+          alt="arrow"
+          className="md:hidden absolute top-[62%] left-[49%] h-[60px] w-[15px] z-100"
+        />
+
+        {/* Step 3 */}
+        <div className="bg-white text-center rounded-xl shadow-md p-6 w-full md:w-[330px] relative z-10">
+          <div className="text-white bg-indigo-600 w-12 h-12 rounded-full mx-auto mb-4 flex items-center justify-center font-bold">
+            03
+          </div>
+          <h3 className="font-bold text-xl text-black"> Start Talking</h3>
+          <p className="text-md text-black mt-2">
+            Control tasks with voice — schedule and update hands-free.
+          </p>
+        </div>
       </div>
     </section>
   );

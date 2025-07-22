@@ -5,12 +5,14 @@ export default function TalkToWorkSmarterPage() {
     <section className="flex flex-col md:flex-row justify-between md:m-[100px] mx-6">
       {/* Left Content */}
       <div className="my-[65px] mr-7">
-        <button className="bg-[#E5E7FF] text-[#4A48FF] text-xl font-bold px-4 py-1 rounded-full mb-4 w-[308px] h-[42px] ">
-          Talk To Work Smarter
-        </button>
-        <h2 className="text-3xl md:text-4xl font-bold mb-4 ">
-          Work smarter with voice-first automation
-        </h2>
+        <div className="md:items-start text-left items-center text-center">
+          <button className="bg-[#E5E7FF] text-[#4A48FF] text-xl font-bold px-4 py-1 rounded-full mb-4 w-[308px] h-[42px] ">
+            Talk To Work Smarter
+          </button>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 ">
+            Work smarter with voice-first automation
+          </h2>
+        </div>
         <ul className="space-y-4 text-lg ">
           <li className="flex items-start gap-3">
             <Image

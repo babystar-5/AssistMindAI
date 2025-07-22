@@ -10,15 +10,10 @@ import PricingPage from "./Pricing";
 import FaqPage from "./Faq";
 import ReadyToWorkPage from "./ReadyToWork";
 import HowItWorksPage from "./HowItWorks";
+import IntegrationPage from "./Integration";
+import TestimonialsPage from "./Testimonials";
 
 export default function Home() {
-
-  const [openIndex, setOpenIndex] = useState<number | null>(0);
-
-  const toggle = (index: number) => {
-    setOpenIndex(openIndex === index ? null : index);
-  };
-
   return (
     <div className="max-w-[1440px] mx-auto">
       <Header />
@@ -26,6 +21,8 @@ export default function Home() {
       <WhatItDoesPage />
       <TalkToWorkSmarterPage />
       <HowItWorksPage />
+      <TestimonialsPage />
+      <IntegrationPage />
       <PricingPage />
       <FaqPage />
       <ReadyToWorkPage />

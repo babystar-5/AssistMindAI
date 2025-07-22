@@ -21,6 +21,24 @@ export const services = [
   },
 ];
 
+// export const steps = [
+//   {
+//     id: 1,
+//     title: "Set Up Your Assistant",
+//     description: "Customize voice and call settings to fit your workflow.",
+//   },
+//   {
+//     id: 2,
+//     title: "Connect Your Tools",
+//     description: "Seamlessly connect to CRM, calendar — no code required.",
+//   },
+//   {
+//     id: 3,
+//     title: "Start Talking",
+//     description: "Control tasks with voice — schedule and update hands-free.",
+//   },
+// ];
+
 export const memberships = [
   {
     id: 1,
@@ -99,5 +117,3 @@ export const faqs = [
       "Our assistant connects to tools like Google Calendar and Calendly to check availability, avoid conflicts, and book appointments in real time — all through voice commands. You can even customize buffer times, durations, and auto-reminders.",
   },
 ];
-
-
