@@ -21,6 +21,13 @@ export const services = [
   },
 ];
 
+export const avatars = [
+  { src: "/assets/avatar1.png", style: "top-0 left-1/8" },
+  { src: "/assets/avatar2.png", style: 'top-1/2 left-10' },
+  { src: "/assets/avatar3.png", style: 'bottom-0 right-40' },
+  { src: "/assets/avatar4.png", style: 'top-20 right-1/3' },
+];
+
 // export const steps = [
 //   {
 //     id: 1,

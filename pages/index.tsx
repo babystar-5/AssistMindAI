@@ -12,6 +12,7 @@ import ReadyToWorkPage from "./ReadyToWork";
 import HowItWorksPage from "./HowItWorks";
 import IntegrationPage from "./Integration";
 import TestimonialsPage from "./Testimonials";
+import FeaturesPage from "./Features";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <WhatItDoesPage />
       <TalkToWorkSmarterPage />
       <HowItWorksPage />
+      <FeaturesPage />
       <TestimonialsPage />
       <IntegrationPage />
       <PricingPage />
