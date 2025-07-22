@@ -8,7 +8,7 @@ export default function ReadyToWorkPage() {
         <h1 className="text-[24px] md:text-[40px] font-bold mb-4">
           Ready to Work Smarter with Voice?
         </h1>
-        <p className="text-base md:text-[28px] mb-6">
+        <p className="text-base md:text-[28px] mb-6 leading-[140%]">
           Start automating tasks, scheduling meetings, and syncing data — all by
           speaking naturally.
         </p>

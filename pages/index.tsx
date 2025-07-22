@@ -9,6 +9,7 @@ import TalkToWorkSmarterPage from "./TalkToWorkSmarter";
 import PricingPage from "./Pricing";
 import FaqPage from "./Faq";
 import ReadyToWorkPage from "./ReadyToWork";
+import HowItWorksPage from "./HowItWorks";
 
 export default function Home() {
 
@@ -24,6 +25,7 @@ export default function Home() {
       <DashboardPage />
       <WhatItDoesPage />
       <TalkToWorkSmarterPage />
+      <HowItWorksPage />
       <PricingPage />
       <FaqPage />
       <ReadyToWorkPage />

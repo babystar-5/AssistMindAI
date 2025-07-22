@@ -14,7 +14,7 @@ export default function TalkToWorkSmarterPage() {
         <ul className="space-y-4 text-lg ">
           <li className="flex items-start gap-3">
             <Image
-              src="/assets/icon-check-blue.png"
+              src="/assets/icon-check-indigo-700.png"
               alt="Blue Check Icon"
               width={24}
               height={29}
@@ -31,7 +31,7 @@ export default function TalkToWorkSmarterPage() {
           </li>
           <li className="flex items-start gap-3">
             <Image
-              src="/assets/icon-check-blue.png"
+              src="/assets/icon-check-indigo-700.png"
               alt="Blue Check Icon"
               width={24}
               height={29}
